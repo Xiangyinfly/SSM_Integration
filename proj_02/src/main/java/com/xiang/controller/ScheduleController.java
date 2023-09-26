@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("schedule")
 @Slf4j
+@CrossOrigin//允许其他源访问Controller
 public class ScheduleController {
     @Autowired
     private ScheduleService scheduleService;
